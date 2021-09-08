@@ -2,12 +2,12 @@ ODS HTML CLOSE;
 ODS HTML;
 
 /******************************************************/
-/*													  */
-/*				VIX Modelling Project				  */                 
-/*				***********************               */   
+/*						      */
+/*		VIX Modelling Project		      */          
+/*		***********************       	      */	
 /*                     Helen Wu                       */
-/*				  *******************				  */
-/*													  */
+/*		   *******************		      */		
+/*						      */		
 /******************************************************/
 
 /****************************
@@ -16,7 +16,7 @@ ODS HTML;
 
 /* Import data of option(Jan2014-Feb2014) into SAS */
 proc import out = import 
-		  datafile = "/home/u57894200/Math802/Project/option(Jan2014-Feb2014).csv"
+		  datafile = "/home/Project/option(Jan2014-Feb2014).csv"
 		  DBMS = CSV REPLACE;						
 		  DELIMITER = ',';	
 		  GETNAMES = YES;
